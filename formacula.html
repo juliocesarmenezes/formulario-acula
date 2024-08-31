@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Acula</title>
+</head>
+<body>
+    <div class="campo-container">
+        <h1>Cadastro de Máquinas</h1>
+            <div class="input-wrapper">
+                <label for="nome-peca">Peça:</label>
+                <input type="text" id="nome-peca" name="nome-peça">
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="quantity">Quantidade:</label>
+                <input type="number" id="quantity" name="quantity">
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="cost-real">Valor de Custo da Máquina (R$):</label>
+                <input type="number" id="cost-real" name="cost-real" step="0.01" placeholder="Insira o custo em reais">
+            </div>
+            
+            <div class="input-wrapper">
+                <label for="cost-dollar">Valor de Custo da Máquina (US$):</label>
+                <input type="number" id="cost-dollar" name="cost-dollar" step="0.01" placeholder="Insira o custo em dólares">
+            </div>
+            <div class="input-wrapper">
+                <label for="total-value">Valor Total:</label>
+                <input type="number" id="total-value" name="total-value">
+            </div>
+            
+            <!-- Botões -->
+            <div class="botao">
+                <button onclick="enviar()" class="btn-botao">Cadastrar</button>
+                <button onclick="limpar()" class="btn-limpar">Limpar</button>
+            </div>
+        </div>
+     </div> 
+
+</body>
+</html>
